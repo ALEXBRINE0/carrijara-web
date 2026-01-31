@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Carrijara: asesoría legal, regulatoria y corporativa en Panamá y la región. Tu brújula regulatoria." />
+  <meta name="theme-color" content="#0A2342" />
+
+  <!-- CSP en meta ayuda, pero lo correcto es aplicarlo como HEADER en el servidor/Cloudflare -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; upgrade-insecure-requests" />
+
+  <title>Carrijara | Tu brújula regulatoria</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/favicon.ico" type="image/png" />
+
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido principal</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Carrijara">
+        <img class="brand-logo" src="assets/img/logo.png" alt="Carrijara" width="100" height="100" />
+        <span class="brand-name">Carrijara</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="nav-link" href="#top" data-i18n="nav.home">Inicio</a>
+        <a class="nav-link" href="servicios.html">Servicios</a>
+        <a class="nav-link" href="nosotros.html" data-i18n="nav.about">Nosotros</a>
+        <a class="nav-link" href="#blog" data-i18n="nav.blog">Blog</a>
+        <a class="nav-link" href="#contact" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-icon btn-inverse" type="button" data-lang-toggle aria-label="Cambiar idioma">
+          <span class="lang-pill" aria-hidden="true">ES</span>
+          <span class="sr-only" data-i18n="a11y.langToggle">Cambiar idioma</span>
+        </button>
+
+        <a class="btn btn-primary header-cta" href="#contact" data-i18n="cta.header">Solicitar asesoría</a>
+
+        <button class="btn btn-ghost btn-icon btn-inverse nav-toggle" type="button"
+                aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" data-mobile-nav hidden>
+      <div class="container mobile-nav-inner">
+        <a class="mobile-link" href="#top" data-i18n="nav.home">Inicio</a>
+        <a class="mobile-link" href="servicios.html" data-i18n="nav.services">Servicios</a>
+        <a class="mobile-link" href="nosotros.html" data-i18n="nav.about">Nosotros</a>
+        <a class="mobile-link" href="#blog" data-i18n="nav.blog">Blog</a>
+        <a class="mobile-link" href="#contact" data-i18n="nav.contact">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-label="Carrijara">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Tu brújula regulatoria</p>
+          <h1 class="hero-title" data-i18n="hero.title">Asesoría regulatoria en Panamá.</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            Acompañamos tu cumplimiento normativo y tu expansión regional con criterios técnicos, legales y estratégicos.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-i18n="hero.primary">Solicitar asesoría</a>
+            <a class="btn btn-secondary" href="servicios.html" data-i18n="hero.secondary">Ver servicios</a>
+          </div>
+
+          <ul class="trust-row" aria-label="Diferenciadores">
+            <li class="trust-item reveal" data-i18n="hero.trust1">Confidencialidad y rigor</li>
+            <li class="trust-item reveal" data-i18n="hero.trust2">Enfoque regional</li>
+            <li class="trust-item reveal" data-i18n="hero.trust3">Respuesta ágil</li>
+          </ul>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Mensaje destacado">
+          <div class="hero-card-badge">
+            <span class="dot" aria-hidden="true"></span>
+            <span data-i18n="hero.cardBadge">Expansión regional</span>
+          </div>
+          <p class="hero-card-text" data-i18n="hero.cardText">
+            Brindamos asesoría en múltiples jurisdicciones para impulsar tu crecimiento con seguridad regulatoria.
+          </p>
+
+          <div class="hero-card-meta">
+            <div class="meta">
+              <span class="meta-label" data-i18n="hero.meta1Label">Cobertura</span>
+              <span class="meta-value" data-i18n="hero.meta1Value">Panamá</span>
+            </div>
+            <div class="meta">
+              <span class="meta-label" data-i18n="hero.meta2Label">Enfoque</span>
+              <span class="meta-value" data-i18n="hero.meta2Value">Cumplimiento & Estrategia</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="hero-bottom-fade" aria-hidden="true"></div>
+    </section>
+
+    <section id="services" class="section section-light">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 class="section-title" data-i18n="services.title">Nuestros servicios</h2>
+          <p class="section-desc" data-i18n="services.desc">Soluciones integrales para cumplimiento, registros y gestión corporativa.</p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M7 2h10v4h3v2H4V6h3V2zm2 2v2h6V4H9zm-5 7h16l-1.4 10.2A2 2 0 0 1 16.6 23H7.4a2 2 0 0 1-1.98-1.8L4 11zm6 3v6h2v-6H10zm4 0v6h2v-6h-2z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="services.s1Title">Regulación farmacéutica</h3>
+            <ul class="card-list">
+              <li data-i18n="services.s1a">Registros y renovaciones</li>
+              <li data-i18n="services.s1b">Cumplimiento y auditoría</li>
+              <li data-i18n="services.s1c">Gestión documental</li>
+            </ul>
+          </article>
+
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 2.2 7 3.11V11c0 4.48-2.98 8.77-7 9.9-4.02-1.13-7-5.42-7-9.9V6.31l7-3.11zM11 7h2v6h-2V7zm0 8h2v2h-2v-2z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="services.s2Title">Derecho corporativo</h3>
+            <ul class="card-list">
+              <li data-i18n="services.s2a">Constitución y gobierno corporativo</li>
+              <li data-i18n="services.s2b">Contratos y acuerdos</li>
+              <li data-i18n="services.s2c">Debida diligencia</li>
+            </ul>
+          </article>
+
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M10 2h4l1 2h4v2H5V4h4l1-2zm-3 7h10v13H7V9zm2 2v9h2v-9H9zm4 0v9h2v-9h-2z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="services.s3Title">Registro de marcas</h3>
+            <ul class="card-list">
+              <li data-i18n="services.s3a">Búsqueda y viabilidad</li>
+              <li data-i18n="services.s3b">Registro y oposición</li>
+              <li data-i18n="services.s3c">Renovaciones y vigilancia</li>
+            </ul>
+          </article>
+
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M4 4h16v10H4V4zm2 2v6h12V6H6zm-2 11h16v3H4v-3z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="services.s4Title">Asesoría laboral</h3>
+            <ul class="card-list">
+              <li data-i18n="services.s4a">Políticas internas</li>
+              <li data-i18n="services.s4b">Contratación y desvinculación</li>
+              <li data-i18n="services.s4c">Gestión de riesgos laborales</li>
+            </ul>
+          </article>
+
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2 2 7l10 5 10-5-10-5zm0 7.2L4.6 7 12 3.8 19.4 7 12 9.2zM4 10l8 4 8-4v7l-8 4-8-4v-7z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="services.s5Title">Contrataciones públicas</h3>
+            <ul class="card-list">
+              <li data-i18n="services.s5a">Pliegos y propuestas</li>
+              <li data-i18n="services.s5b">Impugnaciones y recursos</li>
+              <li data-i18n="services.s5c">Cumplimiento contractual</li>
+            </ul>
+          </article>
+
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2a9 9 0 1 0 9 9h-2a7 7 0 1 1-7-7V2zm1 1v9h9A10 10 0 0 0 13 3z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="services.s6Title">Consultoría regional</h3>
+            <ul class="card-list">
+              <li data-i18n="services.s6a">Estrategia de expansión</li>
+              <li data-i18n="services.s6b">Coordinación multi-país</li>
+              <li data-i18n="services.s6c">Soporte continuo</li>
+            </ul>
+          </article>
+
+          <article class="card service-card reveal">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M6 2h12v2H6V2zm-2 4h16v16H4V6zm3 3v2h10V9H7zm0 4v2h10v-2H7z"/></svg>
+            </div>
+            <h3 class="card-title" data-i18n="services.s7Title">Gestión documental</h3>
+            <ul class="card-list">
+              <li data-i18n="services.s7a">Estandarización y control</li>
+              <li data-i18n="services.s7b">Plantillas y compliance</li>
+              <li data-i18n="services.s7c">Soporte a auditorías</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-ivory">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <div class="about-photo" role="img" aria-label="Equipo Carrijara"></div>
+        </div>
+
+        <div class="about-content reveal">
+          <header class="section-head">
+            <h2 class="section-title" data-i18n="about.title">Quiénes somos</h2>
+            <p class="section-desc" data-i18n="about.desc">
+              Un equipo multidisciplinario con enfoque técnico, legal y corporativo para acompañar decisiones con impacto.
+            </p>
+          </header>
+
+          <p class="about-text" data-i18n="about.p1">
+            En Carrijara asesoramos a empresas que requieren una ruta clara para cumplir, registrar y operar con confianza.
+            Trabajamos con procesos verificables, comunicación directa y criterios alineados a tus objetivos.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat reveal">
+              <div class="stat-num" data-count="10">0</div>
+              <div class="stat-label" data-i18n="about.stat1">Años de experiencia</div>
+            </div>
+            <div class="stat reveal">
+              <div class="stat-num" data-count="120">0</div>
+              <div class="stat-label" data-i18n="about.stat2">Clientes satisfechos</div>
+            </div>
+            <div class="stat reveal">
+              <div class="stat-num" data-count="250">0</div>
+              <div class="stat-label" data-i18n="about.stat3">Casos exitosos</div>
+            </div>
+            <div class="stat reveal">
+              <div class="stat-num" data-count="12">0</div>
+              <div class="stat-label" data-i18n="about.stat4">Equipo especializado</div>
+            </div>
+          </div>
+
+          <a class="btn btn-secondary" href="#contact" data-i18n="about.cta">Conversemos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section section-light">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 class="section-title" data-i18n="blog.title">Actualidad y recursos</h2>
+          <p class="section-desc" data-i18n="blog.desc">Ideas, guías y novedades para operar con seguridad.</p>
+        </header>
+
+        <div class="blog-grid">
+          <article class="card blog-card reveal">
+            <div class="blog-thumb blog-thumb-1" role="img" aria-label="Artículo 1"></div>
+            <div class="blog-body">
+              <h3 class="card-title" data-i18n="blog.p1Title">Impacto de las nuevas regulaciones en Panamá</h3>
+              <p class="card-snippet" data-i18n="blog.p1Desc">Qué cambia y cómo prepararte sin fricciones operativas.</p>
+              <a class="btn btn-ghost" href="#" data-i18n="blog.read">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal">
+            <div class="blog-thumb blog-thumb-2" role="img" aria-label="Artículo 2"></div>
+            <div class="blog-body">
+              <h3 class="card-title" data-i18n="blog.p2Title">Guía para el registro de marcas internacionales</h3>
+              <p class="card-snippet" data-i18n="blog.p2Desc">Pasos, tiempos y errores comunes que encarecen el proceso.</p>
+              <a class="btn btn-ghost" href="#" data-i18n="blog.read">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card blog-card reveal">
+            <div class="blog-thumb blog-thumb-3" role="img" aria-label="Artículo 3"></div>
+            <div class="blog-body">
+              <h3 class="card-title" data-i18n="blog.p3Title">Claves para una gestión laboral eficiente</h3>
+              <p class="card-snippet" data-i18n="blog.p3Desc">Políticas internas y control de riesgos para operar sólido.</p>
+              <a class="btn btn-ghost" href="#" data-i18n="blog.read">Leer más</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section cta-band">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2 class="cta-title" data-i18n="contact.title">¿Listo para avanzar con seguridad regulatoria?</h2>
+          <p class="cta-desc" data-i18n="contact.desc">Cuéntanos tu caso y te orientamos con una ruta clara.</p>
+        </div>
+
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="mailto:laura@carrijara.com" data-i18n="contact.emailBtn">Escribir por correo</a>
+          <a class="btn btn-secondary" href="tel:+50764706154" data-i18n="contact.callBtn">Llamar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo_blanco.png" class="footer-logo" alt="Carrijara" width="150" height="150" />
+      </div>
+
+      <div class="footer-block">
+        <h3 class="footer-title" data-i18n="footer.contact">Contacto</h3>
+        <address class="footer-text">
+          <span data-i18n="footer.addrLine1">Pueblo Nuevo, Hato Pintado, Calle 77A Oeste, Casa G21</span><br />
+          <a href="tel:+50764706154" rel="nofollow">+507 6470-6154</a><br />
+          <a href="mailto:info@carrijara.com">infocarrijara@carrijara.com</a>
+        </address>
+      </div>
+
+      <div class="footer-block">
+        <h3 class="footer-title" data-i18n="footer.links">Enlaces</h3>
+        <ul class="footer-links">
+          <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+          <li><a href="nosotros.html" data-i18n="nav.about">Nosotros</a></li>
+          <li><a href="#blog" data-i18n="nav.blog">Blog</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+      </div>
+
+    <div class="container footer-bottom">
+      <p class="footer-small">© <span data-year></span> Carrijara. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

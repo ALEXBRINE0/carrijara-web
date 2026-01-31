@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Servicios Carrijara: licencias sanitarias, registros sanitarios, farmacovigilancia, asesoría técnico-regulatoria, asesoría legal y marcas." />
+  <meta name="theme-color" content="#0A2342" />
+
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none';
+                 img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self';
+                 upgrade-insecure-requests" />
+
+  <title>Carrijara | Servicios</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido principal</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Carrijara">
+        <img class="brand-logo" src="assets/img/logo.png" alt="Carrijara" width="64" height="64" />
+        <span class="brand-name">Carrijara</span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="nav-link" href="index.html" data-i18n="nav.home">Inicio</a>
+        <a class="nav-link" href="servicios.html" aria-current="page" data-i18n="nav.services">Servicios</a>
+        <a class="nav-link" href="index.html#about" data-i18n="nav.about">Nosotros</a>
+        <a class="nav-link" href="index.html#blog" data-i18n="nav.blog">Blog</a>
+        <a class="nav-link" href="index.html#contact" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-icon btn-inverse" type="button" data-lang-toggle aria-label="Cambiar idioma">
+          <span class="lang-pill" aria-hidden="true">ES</span>
+          <span class="sr-only" data-i18n="a11y.langToggle">Cambiar idioma</span>
+        </button>
+
+        <a class="btn btn-primary header-cta" href="index.html#contact" data-i18n="cta.header">Solicitar asesoría</a>
+
+        <button class="btn btn-ghost btn-icon btn-inverse nav-toggle" type="button"
+                aria-label="Abrir menú" aria-expanded="false" data-nav-toggle>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" data-mobile-nav hidden>
+      <div class="container mobile-nav-inner">
+        <a class="mobile-link" href="index.html" data-i18n="nav.home">Inicio</a>
+        <a class="mobile-link" href="servicios.html" data-i18n="nav.services">Servicios</a>
+        <a class="mobile-link" href="index.html#about" data-i18n="nav.about">Nosotros</a>
+        <a class="mobile-link" href="index.html#blog" data-i18n="nav.blog">Blog</a>
+        <a class="mobile-link" href="index.html#contact" data-i18n="nav.contact">Contacto</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Header de la página -->
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="reveal">
+          <p class="eyebrow page-kicker" data-i18n="servicesPage.kicker">Servicios</p>
+          <h1 class="page-title" data-i18n="servicesPage.title">Soluciones regulatorias y legales, de punta a punta.</h1>
+          <p class="page-subtitle" data-i18n="servicesPage.subtitle">
+            Profundizamos cada servicio con un enfoque práctico: requisitos, documentación, seguimiento y cumplimiento.
+          </p>
+        </div>
+
+        <!-- Chips en móvil -->
+        <nav class="svc-chips reveal" aria-label="Servicios" data-section-nav>
+          <a class="chip" href="#licencias" data-section-link data-target="licencias" data-i18n="servicesPage.side.lic">Licencias Sanitarias</a>
+          <a class="chip" href="#registros" data-section-link data-target="registros" data-i18n="servicesPage.side.reg">Registros Sanitarios</a>
+          <a class="chip" href="#farmaco" data-section-link data-target="farmaco" data-i18n="servicesPage.side.fv">Farmaco-tecnovigilancia</a>
+          <a class="chip" href="#tecnico" data-section-link data-target="tecnico" data-i18n="servicesPage.side.tr">Asesoría Técnico-Regulatoria</a>
+          <a class="chip" href="#legal" data-section-link data-target="legal" data-i18n="servicesPage.side.legal">Asesoría Legal y Marcas</a>
+          <a class="chip" href="#metodo" data-section-link data-target="metodo" data-i18n="servicesPage.side.method">Método de trabajo</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="svc-wrap">
+      <div class="container svc-layout">
+        <!-- Sidebar (desktop) -->
+        <aside class="svc-sidebar reveal" aria-label="Navegación de servicios">
+          <h2 class="svc-sidebar-title" data-i18n="servicesPage.sidebarTitle">Servicios</h2>
+          <nav class="svc-side-nav" data-section-nav>
+            <a class="svc-side-link" href="#licencias" data-section-link data-target="licencias" data-i18n="servicesPage.side.lic">Licencias Sanitarias</a>
+            <a class="svc-side-link" href="#registros" data-section-link data-target="registros" data-i18n="servicesPage.side.reg">Registros Sanitarios</a>
+            <a class="svc-side-link" href="#farmaco" data-section-link data-target="farmaco" data-i18n="servicesPage.side.fv">Farmaco-tecnovigilancia</a>
+            <a class="svc-side-link" href="#tecnico" data-section-link data-target="tecnico" data-i18n="servicesPage.side.tr">Asesoría Técnico-Regulatoria</a>
+            <a class="svc-side-link" href="#legal" data-section-link data-target="legal" data-i18n="servicesPage.side.legal">Asesoría Legal y Marcas</a>
+            <a class="svc-side-link" href="#metodo" data-section-link data-target="metodo" data-i18n="servicesPage.side.method">Método de trabajo</a>
+          </nav>
+        </aside>
+
+        <!-- Contenido -->
+        <div class="svc-content">
+
+          <!-- LICENCIAS -->
+          <section id="licencias" class="svc-section" data-section="licencias">
+            <div class="svc-block">
+              <div class="svc-copy reveal">
+                <h2 class="svc-title" data-i18n="servicesPage.lic.title">Licencias sanitarias</h2>
+                <p class="svc-desc" data-i18n="servicesPage.lic.desc">
+                  Orientamos el proceso completo: requisitos, expediente, presentación y seguimiento ante la autoridad competente.
+                </p>
+
+                <ul class="svc-list">
+                  <li class="reveal" data-i18n="servicesPage.lic.b1">Obtención, renovación y actualización de licencias.</li>
+                  <li class="reveal" data-i18n="servicesPage.lic.b2">Auditoría previa de documentación y cumplimiento.</li>
+                  <li class="reveal" data-i18n="servicesPage.lic.b3">Gestión de observaciones y respuesta técnica.</li>
+                  <li class="reveal" data-i18n="servicesPage.lic.b4">Tiempos, cronograma y control de hitos.</li>
+                </ul>
+              </div>
+
+              <div class="svc-media reveal">
+                <figure class="svc-card">
+                  <img src="assets/img/services/licencias_1.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.cert">Certificaciones</figcaption>
+                </figure>
+                <figure class="svc-card">
+                  <img src="assets/img/services/licencias_2.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.consult">Consultorías</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <!-- REGISTROS -->
+          <section id="registros" class="svc-section" data-section="registros">
+            <div class="svc-block">
+              <div class="svc-copy reveal">
+                <h2 class="svc-title" data-i18n="servicesPage.reg.title">Registros sanitarios</h2>
+                <p class="svc-desc" data-i18n="servicesPage.reg.desc">
+                  Estructuramos el expediente técnico-legal y aseguramos trazabilidad documental en todo el ciclo del registro.
+                </p>
+
+                <ul class="svc-list">
+                  <li class="reveal" data-i18n="servicesPage.reg.b1">Preparación y validación del dossier.</li>
+                  <li class="reveal" data-i18n="servicesPage.reg.b2">Traducciones, legalizaciones y control de versiones.</li>
+                  <li class="reveal" data-i18n="servicesPage.reg.b3">Renovaciones, modificaciones y ampliaciones.</li>
+                  <li class="reveal" data-i18n="servicesPage.reg.b4">Seguimiento, respuestas y cierre de observaciones.</li>
+                </ul>
+              </div>
+
+              <div class="svc-media reveal">
+                <figure class="svc-card">
+                  <img src="assets/img/services/registros_1.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.cert">Certificaciones</figcaption>
+                </figure>
+                <figure class="svc-card">
+                  <img src="assets/img/services/registros_2.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.consult">Consultorías</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <!-- FARMACO -->
+          <section id="farmaco" class="svc-section" data-section="farmaco">
+            <div class="svc-block">
+              <div class="svc-copy reveal">
+                <h2 class="svc-title" data-i18n="servicesPage.fv.title">Farmaco-tecnovigilancia</h2>
+                <p class="svc-desc" data-i18n="servicesPage.fv.desc">
+                  Implementamos y fortalecemos tu sistema de vigilancia: reportes, procedimientos, capacitación y control.
+                </p>
+
+                <ul class="svc-list">
+                  <li class="reveal" data-i18n="servicesPage.fv.b1">Diseño/actualización de procedimientos y formatos.</li>
+                  <li class="reveal" data-i18n="servicesPage.fv.b2">Gestión de reportes y trazabilidad.</li>
+                  <li class="reveal" data-i18n="servicesPage.fv.b3">Capacitación y auditoría interna.</li>
+                  <li class="reveal" data-i18n="servicesPage.fv.b4">Acompañamiento ante inspecciones.</li>
+                </ul>
+              </div>
+
+              <div class="svc-media reveal">
+                <figure class="svc-card">
+                  <img src="assets/img/services/farmaco_1.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.cert">Certificaciones</figcaption>
+                </figure>
+                <figure class="svc-card">
+                  <img src="assets/img/services/farmaco_2.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.consult">Consultorías</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <!-- TECNICO -->
+          <section id="tecnico" class="svc-section" data-section="tecnico">
+            <div class="svc-block">
+              <div class="svc-copy reveal">
+                <h2 class="svc-title" data-i18n="servicesPage.tr.title">Asesoría técnico-regulatoria</h2>
+                <p class="svc-desc" data-i18n="servicesPage.tr.desc">
+                  Alineamos tu operación con normativa aplicable, reducimos riesgos y mejoramos velocidad de respuesta regulatoria.
+                </p>
+
+                <ul class="svc-list">
+                  <li class="reveal" data-i18n="servicesPage.tr.b1">Estrategia de cumplimiento y planes de acción.</li>
+                  <li class="reveal" data-i18n="servicesPage.tr.b2">Evaluación documental y brechas.</li>
+                  <li class="reveal" data-i18n="servicesPage.tr.b3">Soporte técnico en comunicaciones oficiales.</li>
+                  <li class="reveal" data-i18n="servicesPage.tr.b4">Estandarización y control documental.</li>
+                </ul>
+              </div>
+
+              <div class="svc-media reveal">
+                <figure class="svc-card">
+                  <img src="assets/img/services/tecnico_1.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.cert">Certificaciones</figcaption>
+                </figure>
+                <figure class="svc-card">
+                  <img src="assets/img/services/tecnico_2.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.consult">Consultorías</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <!-- LEGAL -->
+          <section id="legal" class="svc-section" data-section="legal">
+            <div class="svc-block">
+              <div class="svc-copy reveal">
+                <h2 class="svc-title" data-i18n="servicesPage.legal.title">Asesoría legal y marcas</h2>
+                <p class="svc-desc" data-i18n="servicesPage.legal.desc">
+                  Cubrimos lo corporativo y de propiedad intelectual con criterios de riesgo, cumplimiento y protección comercial.
+                </p>
+
+                <ul class="svc-list">
+                  <li class="reveal" data-i18n="servicesPage.legal.b1">Contratos, acuerdos y soporte corporativo.</li>
+                  <li class="reveal" data-i18n="servicesPage.legal.b2">Registro, oposición y vigilancia de marcas.</li>
+                  <li class="reveal" data-i18n="servicesPage.legal.b3">Estrategia legal para expansión regional.</li>
+                  <li class="reveal" data-i18n="servicesPage.legal.b4">Cumplimiento y gestión de riesgos.</li>
+                </ul>
+              </div>
+
+              <div class="svc-media reveal">
+                <figure class="svc-card">
+                  <img src="assets/img/services/legal_1.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.cert">Certificaciones</figcaption>
+                </figure>
+                <figure class="svc-card">
+                  <img src="assets/img/services/legal_2.jpg" alt="" loading="lazy" width="900" height="560">
+                  <figcaption class="svc-tag" data-i18n="servicesPage.tag.consult">Consultorías</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <!-- METODO -->
+          <section id="metodo" class="svc-section" data-section="metodo">
+            <div class="svc-method">
+              <div class="reveal">
+                <h2 class="svc-title" data-i18n="servicesPage.method.title">Método estandarizado de trabajo</h2>
+                <p class="svc-desc" data-i18n="servicesPage.method.desc">
+                  Un flujo claro para que sepas en qué punto estás, qué falta y cuándo se entrega cada hito.
+                </p>
+              </div>
+
+              <div class="method-grid">
+                <article class="method-step reveal">
+                  <div class="method-num">01</div>
+                  <h3 class="method-title" data-i18n="servicesPage.method.s1t">Diagnóstico</h3>
+                  <p class="method-text" data-i18n="servicesPage.method.s1d">Revisión de requisitos, riesgos y ruta regulatoria.</p>
+                </article>
+
+                <article class="method-step reveal">
+                  <div class="method-num">02</div>
+                  <h3 class="method-title" data-i18n="servicesPage.method.s2t">Estructura</h3>
+                  <p class="method-text" data-i18n="servicesPage.method.s2d">Checklist, control documental y cronograma.</p>
+                </article>
+
+                <article class="method-step reveal">
+                  <div class="method-num">03</div>
+                  <h3 class="method-title" data-i18n="servicesPage.method.s3t">Gestión</h3>
+                  <p class="method-text" data-i18n="servicesPage.method.s3d">Presentación, seguimiento y respuesta a observaciones.</p>
+                </article>
+
+                <article class="method-step reveal">
+                  <div class="method-num">04</div>
+                  <h3 class="method-title" data-i18n="servicesPage.method.s4t">Cierre</h3>
+                  <p class="method-text" data-i18n="servicesPage.method.s4d">Entrega, respaldo y plan de mantenimiento/renovaciones.</p>
+                </article>
+              </div>
+
+              <div class="svc-method-media reveal">
+                <img class="method-image" src="assets/img/services/metodo.jpg" alt="" loading="lazy" width="1400" height="700">
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2 class="cta-title" data-i18n="contact.title">¿Listo para avanzar con seguridad regulatoria?</h2>
+          <p class="cta-desc" data-i18n="contact.desc">Cuéntanos tu caso y te orientamos con una ruta clara.</p>
+        </div>
+
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="mailto:info@carrijara.com" data-i18n="contact.emailBtn">Escribir por correo</a>
+          <a class="btn btn-secondary" href="tel:+50700000000" data-i18n="contact.callBtn">Llamar</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" class="footer-logo" alt="Carrijara" width="180" height="180" />
+        <p class="footer-tagline" data-i18n="footer.tagline">Tu brújula regulatoria</p>
+      </div>
+
+      <div class="footer-block">
+        <h3 class="footer-title" data-i18n="footer.contact">Contacto</h3>
+        <address class="footer-text">
+          <span data-i18n="footer.addrLine1">Pueblo Nuevo, Hato Pintado, Calle 77A Oeste, Casa G21</span><br />
+          <a href="tel:+50764706154" rel="nofollow">+507 6470-6154</a><br />
+          <a href="mailto:info@carrijara.com">info@carrijara.com</a>
+        </address>
+      </div>
+
+      <div class="footer-block">
+        <h3 class="footer-title" data-i18n="footer.links">Enlaces</h3>
+        <ul class="footer-links">
+          <li><a href="servicios.html" data-i18n="nav.services">Servicios</a></li>
+          <li><a href="index.html#about" data-i18n="nav.about">Nosotros</a></li>
+          <li><a href="index.html#blog" data-i18n="nav.blog">Blog</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+      </div>
+
+    <div class="container footer-bottom">
+      <p class="footer-small">© <span data-year></span> Carrijara. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
